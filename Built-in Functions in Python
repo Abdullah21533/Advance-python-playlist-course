@@ -1,0 +1,547 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "f81caefa-719d-456d-a2b7-fc7658b1ba6a",
+   "metadata": {},
+   "source": [
+    "# Built-in Functions in Python"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8da57526-f104-42f5-9154-011203778cd0",
+   "metadata": {},
+   "source": [
+    "### Print Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "4e376d45-071f-4ea9-94f9-1a9ecc32d9b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, World!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello, World!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3c99ee0e-31e8-43c2-a17c-ead69a9e463c",
+   "metadata": {},
+   "source": [
+    "### Input Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "d80bd4a9-2f56-4ef1-8969-7d43baaffb50",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a number:  2\n"
+     ]
+    }
+   ],
+   "source": [
+    "user_input = input(\"Enter a number: \")\n",
+    "number = int(user_input)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "74152e30-cbaf-4359-9dfe-ca47e08af609",
+   "metadata": {},
+   "source": [
+    "### Type Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "a68652da-2261-43f3-ad55-72768af72a6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 3\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "18b8514e-91b0-49e7-9905-7c4a210b31c2",
+   "metadata": {},
+   "source": [
+    "### Type Conversion Functions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "1ea5130b-0c38-4d5c-9c87-4d0c612e387b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "num = \"5\"\n",
+    "num_int = int(num)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "91b731ec-dbdd-4d1b-8138-a9b33eb5643d",
+   "metadata": {},
+   "source": [
+    "### Absolute Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "c3c5a1dc-9a23-474c-9074-2deabd876f82",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(abs(-4))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b1f2f513-17a4-4670-915e-c816b40ec45a",
+   "metadata": {},
+   "source": [
+    "### Power Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f0946982-ff16-4cf1-890e-0cd244e836e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(pow(2,3))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "82c1f0ad-49e2-4b8f-a259-2daa64fd747a",
+   "metadata": {},
+   "source": [
+    "### Min and Max Functions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "34f8b2e5-a579-43b1-999c-59eb1c798ad8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "numbers = [1,2,3,4,5]\n",
+    "print(min(numbers))\n",
+    "print(max(numbers))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d0464151-5a35-4b7c-95b8-d6caa37f0a84",
+   "metadata": {},
+   "source": [
+    "### Round Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "dcb06a9f-fb3b-4ce4-bcc7-3d1822b70b37",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3.86\n"
+     ]
+    }
+   ],
+   "source": [
+    "pi = 27/7\n",
+    "print(round(pi,2))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fcea72b7-da06-4762-a85e-53fd534cb29a",
+   "metadata": {},
+   "source": [
+    "### Divmod Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "6e0eec10-aa40-498e-814f-5835b129b5c9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(2, 1)\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(divmod(5,2))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2c4a048e-a939-4aab-a874-a7d956f9ba1c",
+   "metadata": {},
+   "source": [
+    "### Bin, Oct, and Hex Functions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "bb36865a-2872-4b88-a157-ed3b9a2235f5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0b100\n",
+      "0o4\n",
+      "0x4\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(bin(4))\n",
+    "print(oct(4))\n",
+    "print(hex(4))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c26bd177-2d3c-4d3f-a28e-67d63f934e71",
+   "metadata": {},
+   "source": [
+    "### ID Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "de86d5f6-8297-4a9d-8af4-8bce5c352e96",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "140736323896392\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "print(id(a))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "be322244-2948-4ac1-ae32-40b2e1bf50d0",
+   "metadata": {},
+   "source": [
+    "### Ord Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "71232cce-65e6-46c9-8148-8c97d4a16e26",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "65\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(ord('A'))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8e4a846b-2d4a-4308-82ba-bb1e07b72821",
+   "metadata": {},
+   "source": [
+    "### Len Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "6ee78ef5-607a-47c0-be44-c0a91446aa91",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"python\"\n",
+    "print(len(name))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "676f6e42-49f0-4ff3-8831-380bc5342bf0",
+   "metadata": {},
+   "source": [
+    "### Sum Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "659810a9-1828-455c-8286-c6d06ace608b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "numbers = [1,2,3,4,5]\n",
+    "print(sum(numbers))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "dfa8a504-e18e-4222-8387-57d52142051d",
+   "metadata": {},
+   "source": [
+    "### Help Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "9bacea32-b763-450d-a422-bf1fc766c84c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Help on built-in function print in module builtins:\n",
+      "\n",
+      "print(*args, sep=' ', end='\\n', file=None, flush=False)\n",
+      "    Prints the values to a stream, or to sys.stdout by default.\n",
+      "    \n",
+      "    sep\n",
+      "      string inserted between values, default a space.\n",
+      "    end\n",
+      "      string appended after the last value, default a newline.\n",
+      "    file\n",
+      "      a file-like object (stream); defaults to the current sys.stdout.\n",
+      "    flush\n",
+      "      whether to forcibly flush the stream.\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "help(print)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c17f9167-ca40-4af6-b6ab-a50cfedf5b71",
+   "metadata": {},
+   "source": [
+    "### Additional Tips and Tricks"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "4cfcf1c9-9c70-4854-8f0b-976b937e7ec8",
+   "metadata": {},
+   "source": [
+    "1. Use enumerate() with loops: It allows you to get the index and value while iterating over a list."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "761a69b1-793f-484e-be8d-519d67831b43",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0 a\n",
+      "1 b\n",
+      "2 c\n"
+     ]
+    }
+   ],
+   "source": [
+    "for index, value in enumerate(['a', 'b', 'c']):\n",
+    "    print(index, value)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "309de9a5-2995-449a-b9ff-6a93098c9b92",
+   "metadata": {},
+   "source": [
+    "2. Use zip() to combine iterables: It pairs elements from two or more iterables."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "9d80ba54-a1d1-4110-8abf-8e718c735eed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Alice 85\n",
+      "Bob 90\n",
+      "Charlie 95\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = [\"Alice\", \"Bob\", \"Charlie\"]\n",
+    "scores = [85,90,95]\n",
+    "for name, score in zip(name, scores):\n",
+    "    print(name, score)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "6ed42d94-5203-43b8-a42a-4c5a25598a3e",
+   "metadata": {},
+   "source": [
+    "3. Use all() and any() for logical operations: all() returns True if all elements in an iterable are true, and any() returns True if any element is true."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "748cfa3d-c325-44ab-8f40-bdf547e51267",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "condition = [True, True, False]\n",
+    "print(all(condition))\n",
+    "print(all(condition))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0a67bb90-057a-4158-b037-53380714a5aa",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
